@@ -1,4 +1,3 @@
-# qr_cs_adapter.py
 import os
 import sys
 import re
