@@ -378,7 +378,7 @@ if __name__ == "__main__":
     )
 
     shapley_values, cis_values, qr_cs_values, block_qr_cs_values, random_cs_values, results = \
-        benchmark_feature_importance(h1n1_data_reader, model, filename='benchmark_feature_importance_MLP_process_v2.png')
+        benchmark_feature_importance(housing_data_reader, model, filename='housing_benchmark_mlp.png')
 
     print("Shapley values:", shapley_values)
     print("CIS values:", cis_values)
